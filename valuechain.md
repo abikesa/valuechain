@@ -26,10 +26,53 @@
 6. [Expression](https://www.youtube.com/watch?v=e4Vp7Fpv5BI): open/transparent; finance these systems, make profit, impose your will
 
  
-#
+# Low cost deployment & iteration
 
 - Ship
 - [Deploy](https://github.com/abikesa/quickdeploy)
 - Telecommute
 - `Fast-Iterate-Speed`
 - Progress
+
+# Value chain
+
+Absolutely, let's keep it concise and to the point. Here's a script with brief explanations for each step:
+
+1. **What is Version Control?**
+   - Version control tracks changes to files over time, allowing you to recall specific versions later. It helps manage collaboration and project history.
+
+2. **Introducing GitHub**
+   - GitHub is a platform for hosting and sharing code. It uses Git, a version control system, to track changes to files.
+
+3. **Getting Started**
+   - Sign up for a GitHub account at github.com.
+   - Install Git from git-scm.com if you haven't already.
+
+4. **Creating a Repository**
+   - On GitHub, click the "+" icon and select "New repository."
+   - Give your repository a name and optional description.
+   - Click "Create repository."
+
+5. **Cloning a Repository**
+   - On GitHub, navigate to the repository you want to clone.
+   - Click the "Code" button and copy the repository URL.
+   - Open your terminal and use the command `git clone <repository URL>` to clone the repository.
+
+6. **Adding Files**
+   - Add files to your local repository by placing them in the repository folder.
+   - Use `git add <file>` to stage files for commit.
+
+7. **Committing Changes**
+   - Commit your changes with `git commit -m "Your commit message"` to save them to the local repository.
+
+8. **Pushing Changes**
+   - Push your changes to GitHub with `git push` to update the remote repository.
+
+9. **Pulling Changes**
+   - Pull changes from GitHub to your local repository with `git pull` to update your local copy.
+
+10. **Conclusion**
+    - GitHub is a powerful tool for managing code and collaborating with others.
+    - Explore GitHub's features to enhance your workflow and productivity.
+
+This script should give you enough time to demonstrate each step in your presentation. Feel free to adjust the explanations to suit your audience's familiarity with the topic.
