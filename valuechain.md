@@ -1,3 +1,4 @@
+*Like Molliere's gentilhomme who [didn't know](https://biu.primo.exlibrisgroup.com/discovery/fulldisplay?vid=972BIU_INST:972BIU&tab=LibraryCatalog&docid=alma990012322450205776&lang=en&context=L&adaptor=Local%20Search%20Engine&query=sub,exact,Death%20--%20Proof%20and%20certification,AND&mode=advanced&virtualBrowse=true) that he'd been speaking in prose all his life, I've unsuspectingly been building systems ...*
  
 > $\frac{\partial}{\partial t}\text{Costs} \sim \ \beta_0 + \beta_1 \text{Peasant} + \beta_2 \text{Farmer} + \beta_3 \text{Manufacturer} + \beta_4 \text{Energy} + \beta_5 \text{Transportation} + \epsilon_i$
 
