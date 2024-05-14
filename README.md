@@ -7,11 +7,11 @@
 > $\frac{\partial}{\partial t}\text{Costs} \sim \ \beta_0 + \beta_1 \text{Peasant} + \beta_2 \text{Farmer} + \beta_3 \text{Manufacturer} + \beta_4 \text{Energy} + \beta_5 \text{Transportation} + \epsilon_i$
 
  
-                                       1. Costs
-                                               \
-                                 2. Peasant -> 4. Manufacturer -> 5. Electricity -> 6. Transportation
-                                               /
-                                               3. Farmer
+                                     1. Costs/Value
+                                                   \
+                                 2. Peasant/App -> 4. Manufacturer/Iterate -> 5. Electricity/Compute -> 6. Transportation/Deploy
+                                                   /
+                                                   3. Farmer/Platform
 
 
 
