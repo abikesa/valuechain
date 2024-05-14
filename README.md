@@ -1,5 +1,5 @@
 - Ship
-- Deploy
+- [Deploy](https://github.com/abikesa/quickdeploy)
 - Telecommute
 - `Fast-Iterate-Speed`
 - Progress
