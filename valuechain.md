@@ -26,3 +26,10 @@
 6. [Expression](https://www.youtube.com/watch?v=e4Vp7Fpv5BI): open/transparent; finance these systems, make profit, impose your will
 
  
+#
+
+- Ship
+- [Deploy](https://github.com/abikesa/quickdeploy)
+- Telecommute
+- `Fast-Iterate-Speed`
+- Progress
