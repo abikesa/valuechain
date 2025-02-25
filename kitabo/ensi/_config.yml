@@ -5,10 +5,10 @@
 ####################################################################################### https://www.ledr.com/colours/white.jpg
 
 # Book settings
-title                       : OPRAH™ # The title of the book. Will be placed in the left navbar.
+title                       : Value Chain # The title of the book. Will be placed in the left navbar.
 author                      :  # The author of the book
 copyright                   : "2025"  # Copyright year to be placed in the footer
-logo                        : https://hips.hearstapps.com/hmg-prod/images/oprah-winfrey-arrives-at-the-premiere-of-owns-david-makes-news-photo-1678107172.jpg?crop=1.00xw:0.863xh;0,0.00149xh&resize=1200:* # Path to the logo image file
+logo                        : https://upload.wikimedia.org/wikipedia/commons/5/5a/Lawrence_Summers_2012.jpg # Path to the logo image file
 email                       : "abikesa.sh@gmail.com"
 exclude_patterns            : ["LICENSE.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
 
