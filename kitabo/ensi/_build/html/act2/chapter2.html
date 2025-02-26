@@ -461,16 +461,16 @@ document.write(`
         <span class="s1">&#39;Voir&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Gate-Nutrition&#39;</span><span class="p">],</span>  
         <span class="s1">&#39;Choisis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Prioritize-Lifestyle&#39;</span><span class="p">,</span> <span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">],</span>  
         <span class="s1">&#39;Deviens&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Refine-Training&#39;</span><span class="p">],</span>  
-        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NexToken&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">]</span>  
+        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;NexToken Prediction&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">,</span> <span class="s1">&#39;Existential Cadence&#39;</span><span class="p">]</span>  
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
 <span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
     <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Gate-Nutrition&#39;</span><span class="p">],</span>  
-        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Injure It&#39;</span><span class="p">,</span> <span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">,</span> <span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Injure It&#39;</span><span class="p">,</span> <span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">,</span> <span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Existential Cadence&#39;</span><span class="p">],</span>  
         <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Move It&quot;</span><span class="p">,</span> <span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">],</span>  
-        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Nourish It&#39;</span><span class="p">,</span> <span class="s1">&#39;Know It&#39;</span><span class="p">,</span> <span class="s1">&#39;Prioritize-Lifestyle&#39;</span><span class="p">,</span> <span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">],</span>
+        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Nourish It&#39;</span><span class="p">,</span> <span class="s1">&#39;Know It&#39;</span><span class="p">,</span> <span class="s1">&#39;Prioritize-Lifestyle&#39;</span><span class="p">,</span> <span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken Prediction&#39;</span><span class="p">],</span>
     <span class="p">}</span>
     <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
 
@@ -491,21 +491,21 @@ document.write(`
         <span class="p">(</span><span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">,</span> <span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">,</span> <span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Basal Metabolic Rate&#39;</span><span class="p">,</span> <span class="s1">&#39;Refine-Training&#39;</span><span class="p">):</span> <span class="s1">&#39;51/49&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken Prediction&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">):</span> <span class="s1">&#39;85/15&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">):</span> <span class="s1">&#39;90/10&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;99/1&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;1/9&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Unstructured-Intense&#39;</span><span class="p">,</span> <span class="s1">&#39;Existential Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;99/1&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken Prediction&#39;</span><span class="p">):</span> <span class="s1">&#39;1/9&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">):</span> <span class="s1">&#39;1/8&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">):</span> <span class="s1">&#39;1/7&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">):</span> <span class="s1">&#39;1/6&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;1/5&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Weekly-Calendar&#39;</span><span class="p">,</span> <span class="s1">&#39;Existential Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;1/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken Prediction&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Hydration&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Fat-Muscle Ratio&#39;</span><span class="p">):</span> <span class="s1">&#39;10/90&#39;</span><span class="p">,</span>
         <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Visceral-Fat&#39;</span><span class="p">):</span> <span class="s1">&#39;15/85&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
+        <span class="p">(</span><span class="s1">&#39;Refine-Training&#39;</span><span class="p">,</span> <span class="s1">&#39;Existential Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
     <span class="p">}</span>
 
 <span class="c1"># Calculate positions for nodes</span>
@@ -555,7 +555,7 @@ document.write(`
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
     <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edges_labels</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™: Existential Rupert Cadence&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -565,7 +565,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../_images/d57f4ac4dc5bb58b6319e339d04be62f5569405c023c3c1858e91bb14bd0ac61.png" src="../_images/d57f4ac4dc5bb58b6319e339d04be62f5569405c023c3c1858e91bb14bd0ac61.png" />
+<img alt="../_images/6b7707da6fe965136f97d8ac120af283ff1f79f46e5b623a23022ccb0c6a7ba6.png" src="../_images/6b7707da6fe965136f97d8ac120af283ff1f79f46e5b623a23022ccb0c6a7ba6.png" />
 </div>
 </div>
 <figure class="align-default" id="id4">
